@@ -1,0 +1,19 @@
+.column-style{
+    display:flex;
+    flex-direction: column;
+}
+
+.column-style{
+    font-style:italic;
+    
+}
+
+body {
+    background: red;
+}
+
+.rickroll {
+
+font-weight: bolder;
+
+}
