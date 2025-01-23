@@ -1,0 +1,63 @@
+/* Animations */
+
+/* 
+EGENSKAPER:
+background-color: gray;
+transition: transform 1s;              <-- muy importante!
+color: blue;
+transform: translateX(0) translateY(0)
+scale: 110%;
+rotate: 1 0 1 120deg;
+width
+height
+animation: regelnamn millisekunder;
+
+REGLER:
+@keyframes namn
+
+Kom ihåg: om du vill påverka en underliggande tagg (t.ex. .child) skriv i ".parent:hover .child {  } "
+*/
+
+
+
+.child {
+    color: white;
+    background: rgb(1, 1, 255);
+
+
+    transition: transform 1s;
+}
+
+.parent:hover .child{
+    animation: rotate 0.01ms infinite ;    
+}
+
+
+
+/* keyframe-regler du kan prova 
+    aktivera genom att skriva animation: regelnamn millisekunder;
+    i den sak som ska animeras.
+*/
+
+@keyframes rotate {
+    0% {
+        transform: translateX(0) translateY(0);
+        background-color: aliceblue;
+    }
+
+    25% {
+        transform: translateX(100%) translateY(0);
+        background-color: aqua;
+    }
+
+    50% {
+        transform: translateX(100%) translateY(100%);
+        background-color: aquamarine;
+
+    }
+
+    75% {
+        transform: translateX(0) translateY(100%);
+        background-color: antiquewhite;
+    }
+}

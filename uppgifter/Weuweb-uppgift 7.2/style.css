@@ -1,0 +1,39 @@
+main {
+    max-width: 70%;
+}
+
+.titel{
+    display: flex;
+    justify-content: center;
+
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+
+}
+
+.SA{
+    display: flex;
+    justify-content: center;
+
+}
+.SB{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.SC{
+    display: flex;
+    justify-content: center;
+
+}
+
+.SM{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
