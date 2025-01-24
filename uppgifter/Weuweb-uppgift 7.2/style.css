@@ -1,5 +1,6 @@
 main {
     max-width: 70%;
+    margin-inline: auto;
 }
 
 .titel{
@@ -14,26 +15,20 @@ main {
 
 }
 
-.SA{
-    display: flex;
-    justify-content: center;
-
-}
-.SB{
-    display: flex;
-    justify-content: center;
-
-}
-
-
-.SC{
-    display: flex;
-    justify-content: center;
-
-}
 
 .SM{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+
+div.Sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: black;
+    border: 2px solid grey;
+    color: aliceblue;
+    text-align: center;
 }
