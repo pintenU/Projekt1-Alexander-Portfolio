@@ -349,3 +349,23 @@ li ul li a {
     opacity: 0;
     }
 }
+
+
+
+.dropdown{
+    animation: ease-in-out 1s infinite ;    
+}
+
+@keyframes ease-in-out {
+    25% {
+        transform: translateX(-100%) translateY(0);
+        
+    }
+
+    75% {
+        transform: translateX(0) translateY(0);
+        
+    }
+
+
+}
